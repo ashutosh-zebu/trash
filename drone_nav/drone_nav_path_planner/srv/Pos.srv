@@ -1,0 +1,5 @@
+bool state
+geometry_msgs/Point goal_position
+---
+bool success
+

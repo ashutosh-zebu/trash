@@ -1,0 +1,47 @@
+local_occupancy_grid_server:
+  ros__parameters:
+    voxel_resolution: 0.2
+    local_planner_radius: 10.0
+
+local_planner_server:
+  ros__parameters:
+    voxel_resolution: 0.2             # voxel_size 
+    path_footprint: 0.5
+    
+global_planner:
+  ros__parameters:
+    planner_mode: local                  # [ local, global, both ]
+    voxel_resolution: 0.2             # voxel_size 
+    path_footprint: 0.5           # radius in meters
+
+
+# controller_server:
+#   ros__parameters:
+#     progress_checker:
+#       goal_tolerance:
+#         tolerance_x: 0.0
+#         tolerance_y: 0.0
+#         tolerance_z: 0.0
+
+#     follow_path:
+#       min_vel_x: 0.0
+#       min_vel_y: 0.0
+#       min_vel_z: 0.0
+#       max_vel_x: 0.0
+#       max_vel_y: 0.0
+#       max_vel_z: 0.0
+
+#       pid: 
+#         kp_x: 0.0
+#         ki_x: 0.0
+#         kd_x: 0.0
+
+#         kp_y: 0.0 
+#         ki_y: 0.0 
+#         kd_y: 0.0
+
+#         kp_z: 0.0
+#         ki_z: 0.0 
+#         kd_z: 0.0
+      
+    

@@ -1,0 +1,5 @@
+octomap_server:
+  ros__parameters:
+    frame_id: map
+    map_file: "/home/ashutosh/zebu_ws/src/drone_nav/drone_nav_path_planner/pcd/cloud_map.bt"
+
